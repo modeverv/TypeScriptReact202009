@@ -5,4 +5,5 @@ import App from './App';
 
 type Foo = JSX.IntrinsicAttributes;
 
-ReactDOM.render(<App message="hoge"/>, document.getElementById('root'));
+//ReactDOM.render(<App message="hoge" />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
